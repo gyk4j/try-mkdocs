@@ -17,7 +17,7 @@ jobs:
           fetch-depth: 0
       - name: Install latest MkDocs
         run: |
-          pip install mkdocs
+          pip install -r requirements.txt
       - name: Build Book
         run: |
           # This assumes your book is in the root of your repository.
